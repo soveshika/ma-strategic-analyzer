@@ -9,7 +9,16 @@ tech companies including Microsoft, Google, Apple and Amazon.
 - **Microsoft** is the most aggressive acquirer with 258 deals
 - **Dot-com crash (2000)** caused a 51% drop in deal activity
 - **Post-2008 QE era** drove acquisitions to a peak of 100 deals in 2014
-- **248 deals** targeted US companies — reflecting Silicon Valley dominance
+- **248 deals** targeted US companies — reflecting Silicon Valley 
+dominance
+
+## Key Findings
+- **Acquisition activity peaked at 100 deals in 2014** during the QE era — 
+  low interest rates made deal financing historically cheap
+- **Microsoft led with 258 acquisitions** — a deliberate inorganic growth 
+  strategy of buying capabilities rather than building internally
+- **248 out of all international deals targeted US companies** — revealing 
+  significant geographic concentration risk across all 14 acquirers
 
 ## Tech Stack
 - **Python** — Data analysis and visualization
