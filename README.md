@@ -1,65 +1,25 @@
-# M&A Strategic Intelligence Analyzer
-
-## Overview
-A data analysis project combining SQL, Python and Finance domain 
-knowledge to analyze 1,455 real M&A transactions from 14 major 
-tech companies including Microsoft, Google, Apple and Amazon.
-
-## Key Findings
-- **Microsoft** is the most aggressive acquirer with 258 deals
-- **Dot-com crash (2000)** caused a 51% drop in deal activity
-- **Post-2008 QE era** drove acquisitions to a peak of 100 deals in 2014
-- **248 deals** targeted US companies — reflecting Silicon Valley 
-dominance
-
-## Key Findings
-- **Acquisition activity peaked at 100 deals in 2014** during the QE era — 
-  low interest rates made deal financing historically cheap
-- **Microsoft led with 258 acquisitions** — a deliberate inorganic growth 
-  strategy of buying capabilities rather than building internally
-- **248 out of all international deals targeted US companies** — revealing 
-  significant geographic concentration risk across all 14 acquirers
-
-## Tech Stack
-- **Python** — Data analysis and visualization
-- **SQL (SQLite)** — Database design and querying
-- **Pandas** — Data manipulation
-- **Matplotlib & Seaborn** — Visualizations
-
-## Project Structure
-```
-ma_predictor/
-├── explore.py          # Initial data exploration
-├── db_setup.py         # SQL database creation
-├── sql_queries.py      # Financial SQL queries
-├── visualizations.py   # 4 analytical charts
-├── analysis.py         # Strategic insights report
-└── README.md           # Project documentation
-```
-
 ## Finance Context
 Each insight is grounded in financial theory:
-- Post-2008 acquisition surge linked to **Quantitative Easing** 
-  and near-zero interest rates
-- Geographic concentration reflects **Silicon Valley ecosystem** 
-  dominance in tech innovation
-- Deal activity cycles directly correlate with **capital market 
-  conditions**
+- Post-2008 acquisition surge linked to **Quantitative Easing** and near-zero interest rates
+- Geographic concentration reflects **Silicon Valley ecosystem** dominance in tech innovation
+- Deal activity cycles directly correlate with **capital market conditions**
 
 ## How to Run
 ```bash
 # Clone the repo
 git clone <your-repo-url>
+cd ma_predictor
 
 # Install dependencies
 pip install pandas numpy matplotlib seaborn
 
 # Run in order
-python3 db_setup.py
-python3 sql_queries.py
-python3 analysis.py
-python3 visualizations.py
+python3 explore.py          # (optional) inspect the raw data
+python3 db_setup.py         # build the SQLite database
+python3 sql_queries.py      # run core queries
+python3 analysis.py         # print the strategic insights report
+python3 visualizations.py   # generate the 4 charts
 ```
 
 ## Author
-Built by [Your Name] — MSc Finance | AI Engineer Aspirant
+Built by Sonu Ravish — MSc Finance | AI Engineer Aspirant
