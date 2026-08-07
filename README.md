@@ -1,8 +1,8 @@
 ## Finance Context
-Each insight is grounded in financial theory:
-- Post-2008 acquisition surge linked to **Quantitative Easing** and near-zero interest rates
-- Geographic concentration reflects **Silicon Valley ecosystem** dominance in tech innovation
-- Deal activity cycles directly correlate with **capital market conditions**
+Observed patterns, with possible explanations:
+- Deal activity rose sharply after 2009, coinciding with the near-zero interest rate period. This dataset contains no financing data, so the link is contextual.
+- Of the 341 rows where a country is recorded, 248 are the United States. Note that 77% of rows have no country recorded at all.
+- Deal volume falls after 1999 and after 2008, consistent with wider market cycles.
 
 ## How to Run
 ```bash
@@ -22,4 +22,4 @@ python3 visualizations.py   # generate the 4 charts
 ```
 
 ## Author
-Built by Sonu Ravish — MSc Finance | AI Engineer Aspirant
+Built by Sonu Ravish — MSc Strategy Business  | AI Engineer Aspirant
