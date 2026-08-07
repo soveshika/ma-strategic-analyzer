@@ -22,4 +22,4 @@ python3 visualizations.py   # generate the 4 charts
 ```
 
 ## Author
-Built by Sonu Ravish — MSc Strategy Business  | AI Engineer Aspirant
+Built by Sonu Ravish — MSc Strategy Business Management | AI Engineer Aspirant
