@@ -1,3 +1,5 @@
+📖 See [EXPLANATION.md](EXPLANATION.md) for how this works and what the data revealed.
+
 ## Finance Context
 Observed patterns, with possible explanations:
 - Deal activity rose sharply after 2009, coinciding with the near-zero interest rate period. This dataset contains no financing data, so the link is contextual.
